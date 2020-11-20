@@ -14,7 +14,8 @@ ops:
 
 .PHONY: dev
 dev:
-	python2 setup.py develop $(DEV_USER_FLAG)
+	python2 setup.py develop
+#	python2 setup.py develop $(DEV_USER_FLAG)
 
 .PHONY: clean
 clean:
